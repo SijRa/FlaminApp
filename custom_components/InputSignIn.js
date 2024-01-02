@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import {StyleSheet, View, KeyboardAvoidingView} from 'react-native';
 import { TextInput, Button } from "react-native-paper";
-import codegenNativeCommands from 'react-native/Libraries/Utilities/codegenNativeCommands';
 
 const InputSignIn = props => {
     const [email, setEmail] = useState("");
